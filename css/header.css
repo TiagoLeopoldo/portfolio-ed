@@ -12,9 +12,14 @@ header {
   align-items: center;
   position: relative;
   max-height: 5rem;
-  background-color: var(--cor-branca);
+  background-color: var(--cor-neutra-cinzaclaro);
   padding: 1rem 2.5rem;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9;
 }
 
 /* Logo */

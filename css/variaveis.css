@@ -5,4 +5,15 @@
   --cor-neutra-cinzamedio: #7F8C8D;
   --cor-neutra-preto: #1C1C1C;
   --cor-branca: #FFFFFF;
+
+  --cor-js: rgba(251, 191, 36, 1);
+  --cor-css: rgba(96, 165, 250, 1);
+  --cor-html: rgba(251, 146, 60, 1);
+
+  --cor-react: rgba(34, 211, 238, 1);
+  --cor-tailwind: rgba(45, 212, 191, 1);
+
+  --cor-vs: rgba(129, 140, 248, 1);
+  --cor-git: rgba(248, 113, 113, 1);
+  --cor-figma: rgba(167, 139, 250, 1);
 }

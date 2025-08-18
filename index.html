@@ -8,17 +8,18 @@
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/header.css">
   <link rel="stylesheet" href="./css/sectionHero.css">
+  <link rel="stylesheet" href="./css/sectionAbout.css">
 </head>
 
 <body>
   <header>
-    <a href="#hero"><span>&ltTNL /&gt</span></a>
+    <a href="#hero" target="_self"><span>&ltTNL /&gt</span></a>
 
     <input type="checkbox" id="menu-toggle" class="menu-toggle-checkbox">
     <label for="menu-toggle" class="menu-toggle">Menu</label>
     <nav class="menu">
       <ul>
-        <li><a href="#about">Sobre</a></li>
+        <li><a href="#about" target="_self">Sobre</a></li>
         <li><a href="">Projetos</a></li>
         <li><a href="">Contato</a></li>
       </ul>
@@ -88,69 +89,63 @@
           <p>É o candidato ideal para times que buscam um desenvolvedor com maturidade profissional, capacidade de
             aprendizado rápido e potencial para crescer rapidamente em desafios reais.</p>
         </section>
-        <section>
+        <section class="skills">
           <h2>Habilidades:</h2>
-          <h3>hard skills:</h3>
+          <h3>Hard Skills:</h3>
           <table>
             <tr>
               <th>Linguagens</th>
             </tr>
             <tr>
               <td>
-                <span>JavaScript</span>
-                <span>CSS3</span>
-                <span>HTML5</span>
+                <span class="js"
+                  title="Linguagem de programação usada para criar interatividade em páginas web">JavaScript</span>
+                <span class="css" title="Linguagem de estilos usada para definir o visual das páginas web">CSS3</span>
+                <span class="html"
+                  title="Linguagem de marcação usada para estruturar o conteúdo de páginas web">HTML5</span>
               </td>
             </tr>
-          </table>
 
-          <table>
             <tr>
-              <th>Bibliotecas</th>
+              <th>Bibliotecas & Frameworks</th>
             </tr>
             <tr>
               <td>
-                <span>React</span>
-                <span>Tailwind-CSS</span>
+                <span class="react"
+                  title="Biblioteca JavaScript para construir interfaces de usuário reativas e componentizadas">React</span>
+                <span class="tailwind"
+                  title="Framework CSS utilitário que permite estilizar interfaces com classes rápidas e responsivas">Tailwind-CSS</span>
               </td>
             </tr>
-          </table>
 
-          <table>
             <tr>
               <th>Ferramentas</th>
             </tr>
             <tr>
               <td>
-                <span>VSCode</span>
-                <span>Git</span>
-                <span>Figma</span>
-              </td>
-            </tr>
- 
-            <h3>Soft Skills:</h3>
-            
-                    <table>
-            <tr>
-              <th>Ferramentas</th>
-            </tr>
-            <tr>
-              <td>
-                <ul>
-                  <li>Proatividade</li>
-                  <li>Resolução de Problemas</li>
-                  <li>Gestão de Tempo</li>
-                  <li>Comunicação Eficaz</li>
-                  <li>Adaptabilidade</li>
-                  <li>Trabalho em equipe</li>
-                  <li>Aprendizado Contínuo</li>
-                </ul>
+                <span class="vs"
+                  title="Editor de código leve e poderoso, usado para desenvolvimento em diversas linguagens">VSCode</span>
+                <span class="git"
+                  title="Git é um sistema de controle de versão; GitHub é uma plataforma colaborativa que permite versionar, compartilhar e gerenciar código de forma inteligente e integrada com o Git">Git/GitHub</span>
+                <span class="figma"
+                  title="Ferramenta de design colaborativo usada para criar interfaces, protótipos e experiências visuais">Figma</span>
               </td>
             </tr>
           </table>
+          <h3>Soft Skills:</h3>
+          <ul>
+            <li>Proatividade</li>
+            <li>Resolução de Problemas</li>
+            <li>Gestão de Tempo</li>
+            <li>Comunicação Eficaz</li>
+            <li>Adaptabilidade</li>
+            <li>Trabalho em equipe</li>
+            <li>Aprendizado Contínuo</li>
+          </ul>
         </section>
+        <a href="https://drive.google.com/file/d/1To8wbECzJteJNBidPUFmnODSAQ11hy--/view" target="_blank">Download Currículo</a>
         <div>
-          <a href="https://drive.google.com/file/d/1To8wbECzJteJNBidPUFmnODSAQ11hy--/view" target="_blank">Currículo</a>
+
         </div>
       </div>
     </section>
