@@ -57,3 +57,18 @@ p {
 #__next {
   isolation: isolate;
 }
+
+section {
+  padding: 4rem 1.5rem; /* Espaçamento interno */
+  margin-bottom: 0; /* Remove margem padrão */
+}
+
+section + section {
+  margin-top: 3rem; /* Espaço apenas entre sections */
+}
+
+@media (min-width: 1280px) {
+  section + section {
+  margin-top: 5rem; /* Espaço apenas entre sections */
+}
+}
