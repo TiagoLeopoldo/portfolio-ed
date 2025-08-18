@@ -9,6 +9,8 @@
   <link rel="stylesheet" href="./css/header.css">
   <link rel="stylesheet" href="./css/sectionHero.css">
   <link rel="stylesheet" href="./css/sectionAbout.css">
+  <link rel="stylesheet" href="./css/sectionProjects.css">
+  <link rel="stylesheet" href="./css/carrosselProjects.css">
 </head>
 
 <body>
@@ -20,7 +22,7 @@
     <nav class="menu">
       <ul>
         <li><a href="#about" target="_self">Sobre</a></li>
-        <li><a href="">Projetos</a></li>
+        <li><a href="#projects">Projetos</a></li>
         <li><a href="">Contato</a></li>
       </ul>
     </nav>
@@ -143,11 +145,74 @@
             <li>Aprendizado Contínuo</li>
           </ul>
         </section>
-        <a href="https://drive.google.com/file/d/1To8wbECzJteJNBidPUFmnODSAQ11hy--/view" target="_blank">Download Currículo</a>
+        <a href="https://drive.google.com/file/d/1To8wbECzJteJNBidPUFmnODSAQ11hy--/view" target="_blank">Download
+          Currículo</a>
         <div>
 
         </div>
       </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projetos:</h2>
+      <section class="carrossel-container">
+        <div class="carrossel">
+          <input type="radio" name="slides" id="slide1" checked>
+          <input type="radio" name="slides" id="slide2">
+          <input type="radio" name="slides" id="slide3">
+
+          <div class="slides">
+            <article class="slide" id="s1">
+              <figure>
+                <img src="./img/carrossel/martspec.png" alt="MartSpec" style="width:100%; border-radius:10px;">
+                <figcaption>
+                  <h2>Dev. Front-end Voluntário</h2>
+                  <p>Trabalhei remotamente com uma equipe inovadora, criando soluções front-end para o site de apps que integram bem-estar físico e mental, seguindo metodologias ágeis e boas práticas de código.</p>
+                  <p>
+                    <a href="https://www.martspec.com" target="_blank" title="Site"><img src="./img/icons/Deploy.svg" alt="site"></a>
+                  </p>
+                </figcaption>
+              </figure>
+            </article>
+
+            <article class="slide" id="s2">
+              <figure>
+                <img src="./img/carrossel/portfolio2.1.png" alt="Portfólio2.1 Tiago" style="width:100%; border-radius:10px;">
+                <figcaption>
+                  <h2>Portfólio 2.1</br>(em desenvolvimento)</h2>
+                  <p>Portfólio profissional está sendo desenvolvido com React.js, apresentando meus projetos e habilidades técnicas. Implementei roteamento dinâmico com React Router, integração com APIs (Mock API) e design responsivo.</p>
+                  <p>
+                    <a href="https://tiagoleopoldo.github.io/portfolio2.1/" target="_blank" title="Deploy"><img src="./img/icons/Deploy.svg" alt="Deploy"></a>
+                    <a href="https://github.com/TiagoLeopoldo/portfolio2.1" target="_blank" title="GitHub Code"><img src="./img/icons/Github.svg" alt="GitHub code"></a>
+                  </p>
+                </figcaption>
+              </figure>
+            </article>
+
+            <article class="slide" id="s3">
+              <figure>
+                <img src="./img/carrossel/hbo.png" alt="Réplica HBO Max" style="width:100%; border-radius:10px;">
+                <figcaption>
+                  <h2>Réplica HBO Max (desfio DIO)</h2>
+                  <p>Reprodução fiel da UI do HBO Max com animações CSS, tratamento de formulários e responsividade, aplicando conceitos como Grid Layout e pseudo-elementos.</p>
+                  <p>
+                    <a href="https://tiagoleopoldo.github.io/HBOMAX-DESAFIO-DIO/index.html" target="_blank" title="Deploy"><img src="./img/icons/Deploy.svg" alt="Deploy"></a>
+                    <a href="https://github.com/TiagoLeopoldo/HBOMAX-DESAFIO-DIO" target="_blank" title="GitHub Code"><img src="./img/icons/Github.svg" alt="GitHub code"></a>
+                  </p>
+                </figcaption>
+              </figure>
+            </article>
+
+          </div>
+
+          <nav class="navegacao" aria-label="Navegação do carrossel">
+            <label for="slide1" class="bar" aria-label="Projeto 1"></label>
+            <label for="slide2" class="bar" aria-label="Projeto 2"></label>
+            <label for="slide3" class="bar" aria-label="Projeto 3"></label>
+          </nav>
+        </div>
+      </section>
+
     </section>
   </main>
 
