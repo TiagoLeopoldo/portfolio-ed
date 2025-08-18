@@ -34,11 +34,6 @@
 }
 
 
-.hero > * {
-  position: relative;
-  z-index: 1;
-}
-
 /* Imagem do Hero */
 .hero img {
   width: 18.75rem;
