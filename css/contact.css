@@ -32,7 +32,7 @@
 
 /* Formulário */
 
-#contacts .form-container{
+#contacts .form-container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -80,13 +80,29 @@
   box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
 }
 
-@media (min-width: 1024px) {
-
-  #contacts .title-contact {
-  font-size: 3rem;
+.links {
+  margin: 0 auto;
 }
+.links div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.links .linkedin {
+  width: 3rem;
+}
+
+.links .github {
+  width: 3.5rem;
+}
+
+@media (min-width: 1024px) {
+  #contacts .title-contact {
+    font-size: 3rem;
+  }
 
   #contacts .form-container form {
-  max-width: 60%;
-}
+    max-width: 60%;
+  }
 }
