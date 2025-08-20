@@ -1,0 +1,9 @@
+@import url(/css/variaveis.css);
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+    background-color: var(--cor-neutra-cinzaclaro);
+}
