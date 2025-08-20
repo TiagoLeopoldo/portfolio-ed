@@ -3,7 +3,6 @@
 /* Container principal */
 .carrossel-container {
   width: 100%;
-  max-width: 25rem;
   padding: 2.54rem;
   margin: 0 auto;  
 }
@@ -32,7 +31,6 @@
   width: 25%;
   height: 100%;
   padding: 1rem;
-  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -126,24 +124,4 @@ input[type="radio"] {
 #slide2:checked ~ .navegacao .barra:nth-child(2),
 #slide3:checked ~ .navegacao .barra:nth-child(3) {
   background-color: white;
-}
-
-/* Responsividade */
-@media (max-width: 500px) {
-  .carrossel {
-    height: auto;
-  }
-
-  .slide {
-    height: auto;
-    padding: 1rem;
-  }
-
-  .slide h2 {
-    font-size: 1.2rem;
-  }
-
-  .slide p {
-    font-size: 0.9rem;
-  }
 }
