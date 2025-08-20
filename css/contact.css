@@ -1,0 +1,92 @@
+@import url(./variaveis.css);
+
+#contacts {
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  position: relative;
+}
+
+#contacts::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5rem;
+  background: var(--cor-neutra-cinzaclaro);
+  border-radius: 0 0 50% 50% / 0 0 100% 100%;
+}
+
+#contacts .title-contact {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--cor-primaria);
+  margin-top: 8rem;
+}
+
+/* Formulário */
+
+#contacts .form-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+#contacts .form-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 100%;
+  height: 100%;
+}
+
+#contacts .form-container form input {
+  padding: 0.25rem 0.5rem;
+  display: block;
+}
+
+#mensagem {
+  padding: 0.25rem 0.5rem;
+  min-height: 8rem;
+}
+
+.form-container button {
+  display: inline-block;
+  background-color: var(--cor-primaria);
+  color: var(--cor-branca);
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  margin: 0 auto;
+  align-self: flex-start;
+}
+
+.form-container button:hover {
+  background-color: var(--cor-secundaria);
+  color: var(--cor-neutra-preto);
+  transform: translateY(-0.125rem);
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 1024px) {
+
+  #contacts .title-contact {
+  font-size: 3rem;
+}
+
+  #contacts .form-container form {
+  max-width: 60%;
+}
+}
