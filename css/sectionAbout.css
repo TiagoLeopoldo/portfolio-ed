@@ -105,7 +105,6 @@
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-  margin: 0;
   padding-top: 0;
 }
 
@@ -261,7 +260,6 @@
     margin: 15rem auto;
     position: sticky;
     top: 25%;
-    left: 5%;
   }
 
 
