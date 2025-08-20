@@ -39,7 +39,7 @@ header span {
   z-index: 5;
   transform: translateY(-100%);
   opacity: 0;
-  transition: transform 1s ease-out, opacity 0.3s ease;
+  transition: transform 0.3s ease-out, opacity 0.3s ease;
 }
 
 .menu-toggle {
@@ -100,11 +100,8 @@ header span {
     position: static;
     transform: none;
     opacity: 1;
-    pointer-events: auto;
     background-color: transparent;
-    border: none;
     box-shadow: none;
-
     min-width: auto;
   }
 
