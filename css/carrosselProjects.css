@@ -1,7 +1,7 @@
 /* Container principal */
 .carrossel-container {
   width: 100%;
-  max-width: 400px;
+  max-width: 25rem;
   padding: 2.54rem;
   margin: 0 auto;  
 }
@@ -10,10 +10,10 @@
 .carrossel {
   position: relative;
   width: 100%;
-  height: 500px;
+  height: 31.25rem;
   overflow: hidden;
   border-radius: 1rem;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
   background-color: #fff;
 }
 
@@ -49,9 +49,9 @@
 .slide img {
   max-width: 100%;
   height: auto;
-  border-radius: 10px;
+  border-radius: 0.75rem;
   margin-bottom: 1rem;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 0.5rem 0.75rem rgba(0,0,0,0.1);
 }
 
 /* Título do projeto */
@@ -69,23 +69,15 @@
 }
 
 /* Links */
-
-.slide figcaption p {
- display: flex;
- align-items: center;
- justify-content: flex-start;
-}
-
-.slide a {
-  color: #fff;
-  text-decoration: underline;
-  margin: 0 0.5rem;
-  font-weight: bold;
-  transition: color 0.3s;
+.slide div {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 1rem;
 }
 
 .slide a img {
-    width: 2rem;
+    width: 3rem;
     border: none;
     box-shadow: none;
 }
@@ -103,10 +95,10 @@ input[type="radio"] {
   right: 0;
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 0.75rem;
 }
 
-.bar {
+.barra {
   width: 15px;
   height: 15px;
   border-radius: 50%;
@@ -128,9 +120,9 @@ input[type="radio"] {
 }
 
 
-#slide1:checked ~ .navegacao .bar:nth-child(1),
-#slide2:checked ~ .navegacao .bar:nth-child(2),
-#slide3:checked ~ .navegacao .bar:nth-child(3) {
+#slide1:checked ~ .navegacao .barra:nth-child(1),
+#slide2:checked ~ .navegacao .barra:nth-child(2),
+#slide3:checked ~ .navegacao .barra:nth-child(3) {
   background-color: white;
 }
 

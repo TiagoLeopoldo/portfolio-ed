@@ -1,4 +1,4 @@
-@import url(variaveis.css);
+@import url(./variaveis.css);
 
 /* About Section */
 #about {
@@ -17,7 +17,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 80px;
+  height: 5rem;
   background: var(--cor-neutra-cinzaclaro);
   border-radius: 0 0 50% 50% / 0 0 100% 100%;
 }
@@ -28,7 +28,7 @@
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 80px;
+  height: 5rem;
   background: var(--cor-neutra-cinzaclaro);
   border-radius: 50% 50% 0% 0% / 100% 100% 0 0;
 }
@@ -36,10 +36,10 @@
 #about img {
   width: 20rem;
   border-radius: 50%;
-  border: 4px solid var(--cor-primaria);
+  border: 0.25rem solid var(--cor-primaria);
   object-fit: cover;
   margin: 0 auto;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.1);
 }
 
 #about div {
@@ -135,7 +135,7 @@
   color: var(--cor-primaria);
   text-align: left;
   padding: 0.5rem 0;
-  border-bottom: 2px solid var(--cor-primaria);
+  border-bottom: 0.125rem solid var(--cor-primaria);
 }
 
 .skills td {
@@ -145,9 +145,8 @@
 .skills span {
   display: inline-block;
   margin: 0.5rem 0.5rem 0.5rem 0;
-  border-radius: 12px;
+  border-radius: 0.75rem;
   font-weight: bold;
-  font-family: "Open Sans", sans-serif;
   font-size: 0.9rem;
 }
 
@@ -213,7 +212,6 @@
 
 .skills li {
   color: var(--cor-primaria);
-  font-family: "Open Sans", sans-serif;
   font-size: 0.9rem;
   position: relative;
   padding-left: 1.5rem;
@@ -227,14 +225,13 @@
 }
 
 
-/* CV Link */
+/* botao curriculo */
 #about a {
   display: inline-block;
   background-color: var(--cor-primaria);
   color: var(--cor-branca);
   padding: 0.75rem 1.5rem;
-  border-radius: 8px;
-  font-family: "Montserrat", sans-serif;
+  border-radius: 0.5rem;
   font-weight: 600;
   text-align: center;
   text-decoration: none;
@@ -246,11 +243,11 @@
 #about a:hover {
   background-color: var(--cor-secundaria);
   color: var(--cor-neutra-preto);
-  transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transform: translateY(-0.125rem);
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
 }
 
-/* ===== RESPONSIVE ADJUSTMENTS ===== */
+/* Responsividade */
 @media (min-width: 768px) {
   #about {
     flex-direction: row;

@@ -1,4 +1,4 @@
-@import url(variaveis.css);
+@import url(./variaveis.css);
 
 /* Container principal */
 
@@ -50,7 +50,6 @@
 }
 
 .hero h3 {
-  font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
   color: var(--cor-primaria);
   text-align: center;
@@ -88,7 +87,6 @@
 }
 
 .hero h3 {
-  font-family: 'Open Sans', sans-serif;
   font-size: 2.25rem;
   color: var(--cor-primaria);
   text-align: center;

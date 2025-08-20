@@ -1,7 +1,5 @@
-@import url(variaveis.css);
-
+@import url(./variaveis.css);
 /* Mobile First */
-
 a {
   text-decoration: none;
 }
