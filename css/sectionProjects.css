@@ -1,3 +1,4 @@
+@import url(./variaveis.css);
 #projects {
   width: 100%;
   margin: 0 auto;
@@ -9,6 +10,14 @@
   gap: 1rem;
   position: relative;
   background: var(--cor-neutra-cinzaclaro);
+}
+
+#projects .projects {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--cor-primaria);
+  margin-top: 3rem;
+  text-decoration: underline;
 }
 
 .cards-projects {
@@ -74,6 +83,10 @@
 }
 
 @media (min-width: 1024px) {
+#projects .projects {
+  font-size: 4rem;
+}
+
   .carrossel-container {
     display: none;
   }
