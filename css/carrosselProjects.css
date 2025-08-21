@@ -37,6 +37,7 @@
   text-align: center;
   color: #333;
   overflow: hidden;
+  padding: 0.5rem;
 }
 
 /* Estilos individuais de fundo */
@@ -69,7 +70,6 @@
 /* Descrição */
 .slide p {
   font-size: 1rem;
-  margin-bottom: 0.5rem;
   color: #fff;
 }
 
