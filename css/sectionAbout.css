@@ -225,8 +225,14 @@
 
 
 /* botao curriculo */
-#about a {
-  display: inline-block;
+#about .cv-button {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-right: 50%;
+}
+
+#about .cv-button a{
   background-color: var(--cor-primaria);
   color: var(--cor-branca);
   padding: 0.75rem 1.5rem;
@@ -235,11 +241,9 @@
   text-align: center;
   text-decoration: none;
   transition: all 0.3s ease;
-  margin: 0 auto;
-  align-self: flex-start;
 }
 
-#about a:hover {
+#about .cv-button a:hover {
   background-color: var(--cor-secundaria);
   color: var(--cor-neutra-preto);
   transform: translateY(-0.125rem);
